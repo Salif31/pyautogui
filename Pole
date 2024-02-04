@@ -1,0 +1,24 @@
+# Définition des fonctions pour déplacer la pince vers la gauche et vers la droite
+def deplacer_vers_la_gauche():
+    print("Déplacement de la pince vers la gauche")
+
+def deplacer_vers_la_droite():
+    print("Déplacement de la pince vers la droite")
+
+def appuyer_sur_bouton_acheter_des_metres():
+    print("Appui sur le bouton 'Acheter des mètres'")
+
+# Boucle pour déplacer la pince de gauche à droite et de droite à gauche
+while True:
+    # Déplacer la pince vers la gauche
+    deplacer_vers_la_gauche()
+    # Attendre un certain temps
+    # ...
+    # Déplacer la pince vers la droite
+    deplacer_vers_la_droite()
+    # Attendre un certain temps
+    # ...
+    # Appuyer sur le bouton "Acheter des mètres"
+    appuyer_sur_bouton_acheter_des_metres()
+    # Attendre un certain temps avant de recommencer le cycle
+    # ...
